@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grupos al azar</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <main>
+    <a class="volver" href="../index.html">‹ Inicio</a>
+    <h1>Grupos al azar</h1>
+
+    <form id="formulario" novalidate>
+      <label for="curso">Curso</label>
+      <select id="curso"></select>
+
+      <label for="grupos">Cantidad de grupos</label>
+      <input id="grupos" type="number" inputmode="numeric" min="1" max="100" placeholder="Ej: 5">
+
+      <div id="opcion-parejo" class="opcion">
+        <input id="parejo" type="checkbox">
+        <label for="parejo">Repartir cada curso parejo entre los grupos</label>
+      </div>
+
+      <p id="error" role="alert" hidden></p>
+
+      <button type="submit" class="principal">Generar grupos</button>
+    </form>
+
+    <section id="resultado" hidden>
+      <h2>Planilla</h2>
+      <div class="tabla-caja">
+        <table>
+          <thead>
+            <tr><th>Grupo</th><th>Integrantes</th></tr>
+          </thead>
+          <tbody id="cuerpo"></tbody>
+        </table>
+      </div>
+
+      <div class="acciones">
+        <button type="button" id="mezclar" class="secundario">Mezclar de nuevo</button>
+        <button type="button" id="descargar" class="secundario">Descargar planilla</button>
+        <button type="button" id="copiar" class="secundario">Copiar</button>
+      </div>
+      <p id="aviso" role="status"></p>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
