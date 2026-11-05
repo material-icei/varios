@@ -8,6 +8,40 @@
   Escribí el curso siempre igual (por ejemplo "1°A", no "1A" ni "1° a").
 */
 const ALUMNOS = [
+// 6°A
+{ nombre: "	Babini	Josefina	", curso: "	6°A	" },
+{ nombre: "	Bernal	Augusto	", curso: "	6°A	" },
+{ nombre: "	Brandi	Clara	", curso: "	6°A	" },
+{ nombre: "	Bustos	Helena	", curso: "	6°A	" },
+{ nombre: "	Cadile	Nina	", curso: "	6°A	" },
+{ nombre: "	Coria	León	", curso: "	6°A	" },
+{ nombre: "	Cornejo	Augusto	", curso: "	6°A	" },
+{ nombre: "	Cuervo	J. Bautista	", curso: "	6°A	" },
+{ nombre: "	Frugoni	M. Ignacia	", curso: "	6°A	" },
+{ nombre: "	Garignani	Agustina	", curso: "	6°A	" },
+{ nombre: "	Gil	Martina	", curso: "	6°A	" },
+{ nombre: "	Gonzalez	Belisario	", curso: "	6°A	" },
+{ nombre: "	Gonzalez	Eloisa	", curso: "	6°A	" },
+{ nombre: "	Lopez	Martina	", curso: "	6°A	" },
+{ nombre: "	Lucero	Lorenzo	", curso: "	6°A	" },
+{ nombre: "	Manriquez	Manuel	", curso: "	6°A	" },
+{ nombre: "	Mosso	Guillermina	", curso: "	6°A	" },
+{ nombre: "	Moyano	J. Cruz	", curso: "	6°A	" },
+{ nombre: "	Mussi	Feliciano	", curso: "	6°A	" },
+{ nombre: "	Odoriz	Ignacio	", curso: "	6°A	" },
+{ nombre: "	Ortiz	Jazmín	", curso: "	6°A	" },
+{ nombre: "	Pacheco	Franca	", curso: "	6°A	" },
+{ nombre: "	Papaianni	Reggina	", curso: "	6°A	" },
+{ nombre: "	Perez	Luz	", curso: "	6°A	" },
+{ nombre: "	Poges	Julian	", curso: "	6°A	" },
+{ nombre: "	Rumbo	Alvaro	", curso: "	6°A	" },
+{ nombre: "	Saromé	Sofía	", curso: "	6°A	" },
+{ nombre: "	Schmidt	Emma	", curso: "	6°A	" },
+{ nombre: "	Spedaletti	J. Ciro	", curso: "	6°A	" },
+{ nombre: "	Videla	Renzo	", curso: "	6°A	" },
+
+
+  
   // 7°A
 { nombre: "	Aguiló, Alberto	", curso: "	7° A	" },
 { nombre: "	Appiolaza, Paulina	", curso: "	7° A	" },
